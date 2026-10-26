@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "labrador_puppy",
+  "version": "@version@",
+  "name": "Labrador Puppy",
+  "description": "Adds an animated Labrador Retriever puppy entity (idle + walk). Model: \"Labrador Retriever puppy\" by #3D $Resource$ (lopuh22721), CC BY 4.0.",
+  "authors": ["You"],
+  "license": "MIT (code) / CC-BY-4.0 (3D model and texture, see CREDITS.md)",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.labradorpuppy.LabradorPuppyMod"],
+    "client": ["com.example.labradorpuppy.client.LabradorPuppyClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
